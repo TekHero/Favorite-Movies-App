@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D3190DDB1C4213FE001A344C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3190DDA1C4213FE001A344C /* AppDelegate.swift */; };
+		D3190DDD1C4213FE001A344C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3190DDC1C4213FE001A344C /* ViewController.swift */; };
+		D3190DE01C4213FE001A344C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3190DDE1C4213FE001A344C /* Main.storyboard */; };
+		D3190DE31C4213FE001A344C /* Lecture_86_Exercise_Favorite_Movies.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D3190DE11C4213FE001A344C /* Lecture_86_Exercise_Favorite_Movies.xcdatamodeld */; };
+		D3190DE51C4213FE001A344C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3190DE41C4213FE001A344C /* Assets.xcassets */; };
+		D3190DE81C4213FE001A344C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3190DE61C4213FE001A344C /* LaunchScreen.storyboard */; };
+		D3190DF31C4213FF001A344C /* Lecture_86_Exercise_Favorite_MoviesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3190DF21C4213FF001A344C /* Lecture_86_Exercise_Favorite_MoviesTests.swift */; };
+		D3190DFE1C4213FF001A344C /* Lecture_86_Exercise_Favorite_MoviesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3190DFD1C4213FF001A344C /* Lecture_86_Exercise_Favorite_MoviesUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D3190DEF1C4213FF001A344C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3190DCF1C4213FE001A344C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3190DD61C4213FE001A344C;
+			remoteInfo = "Lecture-86-Exercise-Favorite-Movies";
+		};
+		D3190DFA1C4213FF001A344C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3190DCF1C4213FE001A344C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3190DD61C4213FE001A344C;
+			remoteInfo = "Lecture-86-Exercise-Favorite-Movies";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D3190DD71C4213FE001A344C /* Lecture-86-Exercise-Favorite-Movies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lecture-86-Exercise-Favorite-Movies.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3190DDA1C4213FE001A344C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D3190DDC1C4213FE001A344C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D3190DDF1C4213FE001A344C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D3190DE21C4213FE001A344C /* Lecture_86_Exercise_Favorite_Movies.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Lecture_86_Exercise_Favorite_Movies.xcdatamodel; sourceTree = "<group>"; };
+		D3190DE41C4213FE001A344C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D3190DE71C4213FE001A344C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D3190DE91C4213FE001A344C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3190DEE1C4213FF001A344C /* Lecture-86-Exercise-Favorite-MoviesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lecture-86-Exercise-Favorite-MoviesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3190DF21C4213FF001A344C /* Lecture_86_Exercise_Favorite_MoviesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lecture_86_Exercise_Favorite_MoviesTests.swift; sourceTree = "<group>"; };
+		D3190DF41C4213FF001A344C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3190DF91C4213FF001A344C /* Lecture-86-Exercise-Favorite-MoviesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lecture-86-Exercise-Favorite-MoviesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3190DFD1C4213FF001A344C /* Lecture_86_Exercise_Favorite_MoviesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lecture_86_Exercise_Favorite_MoviesUITests.swift; sourceTree = "<group>"; };
+		D3190DFF1C4213FF001A344C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3190DD41C4213FE001A344C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3190DEB1C4213FF001A344C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3190DF61C4213FF001A344C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D3190DCE1C4213FE001A344C = {
+			isa = PBXGroup;
+			children = (
+				D3190DD91C4213FE001A344C /* Lecture-86-Exercise-Favorite-Movies */,
+				D3190DF11C4213FF001A344C /* Lecture-86-Exercise-Favorite-MoviesTests */,
+				D3190DFC1C4213FF001A344C /* Lecture-86-Exercise-Favorite-MoviesUITests */,
+				D3190DD81C4213FE001A344C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D3190DD81C4213FE001A344C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3190DD71C4213FE001A344C /* Lecture-86-Exercise-Favorite-Movies.app */,
+				D3190DEE1C4213FF001A344C /* Lecture-86-Exercise-Favorite-MoviesTests.xctest */,
+				D3190DF91C4213FF001A344C /* Lecture-86-Exercise-Favorite-MoviesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3190DD91C4213FE001A344C /* Lecture-86-Exercise-Favorite-Movies */ = {
+			isa = PBXGroup;
+			children = (
+				D3190DDA1C4213FE001A344C /* AppDelegate.swift */,
+				D3190DDC1C4213FE001A344C /* ViewController.swift */,
+				D3190DDE1C4213FE001A344C /* Main.storyboard */,
+				D3190DE41C4213FE001A344C /* Assets.xcassets */,
+				D3190DE61C4213FE001A344C /* LaunchScreen.storyboard */,
+				D3190DE91C4213FE001A344C /* Info.plist */,
+				D3190DE11C4213FE001A344C /* Lecture_86_Exercise_Favorite_Movies.xcdatamodeld */,
+			);
+			path = "Lecture-86-Exercise-Favorite-Movies";
+			sourceTree = "<group>";
+		};
+		D3190DF11C4213FF001A344C /* Lecture-86-Exercise-Favorite-MoviesTests */ = {
+			isa = PBXGroup;
+			children = (
+				D3190DF21C4213FF001A344C /* Lecture_86_Exercise_Favorite_MoviesTests.swift */,
+				D3190DF41C4213FF001A344C /* Info.plist */,
+			);
+			path = "Lecture-86-Exercise-Favorite-MoviesTests";
+			sourceTree = "<group>";
+		};
+		D3190DFC1C4213FF001A344C /* Lecture-86-Exercise-Favorite-MoviesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D3190DFD1C4213FF001A344C /* Lecture_86_Exercise_Favorite_MoviesUITests.swift */,
+				D3190DFF1C4213FF001A344C /* Info.plist */,
+			);
+			path = "Lecture-86-Exercise-Favorite-MoviesUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3190DD61C4213FE001A344C /* Lecture-86-Exercise-Favorite-Movies */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3190E021C4213FF001A344C /* Build configuration list for PBXNativeTarget "Lecture-86-Exercise-Favorite-Movies" */;
+			buildPhases = (
+				D3190DD31C4213FE001A344C /* Sources */,
+				D3190DD41C4213FE001A344C /* Frameworks */,
+				D3190DD51C4213FE001A344C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lecture-86-Exercise-Favorite-Movies";
+			productName = "Lecture-86-Exercise-Favorite-Movies";
+			productReference = D3190DD71C4213FE001A344C /* Lecture-86-Exercise-Favorite-Movies.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D3190DED1C4213FF001A344C /* Lecture-86-Exercise-Favorite-MoviesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3190E051C4213FF001A344C /* Build configuration list for PBXNativeTarget "Lecture-86-Exercise-Favorite-MoviesTests" */;
+			buildPhases = (
+				D3190DEA1C4213FF001A344C /* Sources */,
+				D3190DEB1C4213FF001A344C /* Frameworks */,
+				D3190DEC1C4213FF001A344C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3190DF01C4213FF001A344C /* PBXTargetDependency */,
+			);
+			name = "Lecture-86-Exercise-Favorite-MoviesTests";
+			productName = "Lecture-86-Exercise-Favorite-MoviesTests";
+			productReference = D3190DEE1C4213FF001A344C /* Lecture-86-Exercise-Favorite-MoviesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D3190DF81C4213FF001A344C /* Lecture-86-Exercise-Favorite-MoviesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3190E081C4213FF001A344C /* Build configuration list for PBXNativeTarget "Lecture-86-Exercise-Favorite-MoviesUITests" */;
+			buildPhases = (
+				D3190DF51C4213FF001A344C /* Sources */,
+				D3190DF61C4213FF001A344C /* Frameworks */,
+				D3190DF71C4213FF001A344C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3190DFB1C4213FF001A344C /* PBXTargetDependency */,
+			);
+			name = "Lecture-86-Exercise-Favorite-MoviesUITests";
+			productName = "Lecture-86-Exercise-Favorite-MoviesUITests";
+			productReference = D3190DF91C4213FF001A344C /* Lecture-86-Exercise-Favorite-MoviesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3190DCF1C4213FE001A344C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = codebluapps;
+				TargetAttributes = {
+					D3190DD61C4213FE001A344C = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					D3190DED1C4213FF001A344C = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = D3190DD61C4213FE001A344C;
+					};
+					D3190DF81C4213FF001A344C = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = D3190DD61C4213FE001A344C;
+					};
+				};
+			};
+			buildConfigurationList = D3190DD21C4213FE001A344C /* Build configuration list for PBXProject "Lecture-86-Exercise-Favorite-Movies" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D3190DCE1C4213FE001A344C;
+			productRefGroup = D3190DD81C4213FE001A344C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3190DD61C4213FE001A344C /* Lecture-86-Exercise-Favorite-Movies */,
+				D3190DED1C4213FF001A344C /* Lecture-86-Exercise-Favorite-MoviesTests */,
+				D3190DF81C4213FF001A344C /* Lecture-86-Exercise-Favorite-MoviesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3190DD51C4213FE001A344C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3190DE81C4213FE001A344C /* LaunchScreen.storyboard in Resources */,
+				D3190DE51C4213FE001A344C /* Assets.xcassets in Resources */,
+				D3190DE01C4213FE001A344C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3190DEC1C4213FF001A344C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3190DF71C4213FF001A344C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3190DD31C4213FE001A344C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3190DDD1C4213FE001A344C /* ViewController.swift in Sources */,
+				D3190DE31C4213FE001A344C /* Lecture_86_Exercise_Favorite_Movies.xcdatamodeld in Sources */,
+				D3190DDB1C4213FE001A344C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3190DEA1C4213FF001A344C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3190DF31C4213FF001A344C /* Lecture_86_Exercise_Favorite_MoviesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3190DF51C4213FF001A344C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3190DFE1C4213FF001A344C /* Lecture_86_Exercise_Favorite_MoviesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D3190DF01C4213FF001A344C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3190DD61C4213FE001A344C /* Lecture-86-Exercise-Favorite-Movies */;
+			targetProxy = D3190DEF1C4213FF001A344C /* PBXContainerItemProxy */;
+		};
+		D3190DFB1C4213FF001A344C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3190DD61C4213FE001A344C /* Lecture-86-Exercise-Favorite-Movies */;
+			targetProxy = D3190DFA1C4213FF001A344C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D3190DDE1C4213FE001A344C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3190DDF1C4213FE001A344C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D3190DE61C4213FE001A344C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3190DE71C4213FE001A344C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D3190E001C4213FF001A344C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D3190E011C4213FF001A344C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3190E031C4213FF001A344C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Lecture-86-Exercise-Favorite-Movies/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codebluapps.Lecture-86-Exercise-Favorite-Movies";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D3190E041C4213FF001A344C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Lecture-86-Exercise-Favorite-Movies/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codebluapps.Lecture-86-Exercise-Favorite-Movies";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D3190E061C4213FF001A344C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Lecture-86-Exercise-Favorite-MoviesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codebluapps.Lecture-86-Exercise-Favorite-MoviesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lecture-86-Exercise-Favorite-Movies.app/Lecture-86-Exercise-Favorite-Movies";
+			};
+			name = Debug;
+		};
+		D3190E071C4213FF001A344C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Lecture-86-Exercise-Favorite-MoviesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codebluapps.Lecture-86-Exercise-Favorite-MoviesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lecture-86-Exercise-Favorite-Movies.app/Lecture-86-Exercise-Favorite-Movies";
+			};
+			name = Release;
+		};
+		D3190E091C4213FF001A344C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Lecture-86-Exercise-Favorite-MoviesUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codebluapps.Lecture-86-Exercise-Favorite-MoviesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Lecture-86-Exercise-Favorite-Movies";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D3190E0A1C4213FF001A344C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Lecture-86-Exercise-Favorite-MoviesUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codebluapps.Lecture-86-Exercise-Favorite-MoviesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Lecture-86-Exercise-Favorite-Movies";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3190DD21C4213FE001A344C /* Build configuration list for PBXProject "Lecture-86-Exercise-Favorite-Movies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3190E001C4213FF001A344C /* Debug */,
+				D3190E011C4213FF001A344C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3190E021C4213FF001A344C /* Build configuration list for PBXNativeTarget "Lecture-86-Exercise-Favorite-Movies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3190E031C4213FF001A344C /* Debug */,
+				D3190E041C4213FF001A344C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D3190E051C4213FF001A344C /* Build configuration list for PBXNativeTarget "Lecture-86-Exercise-Favorite-MoviesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3190E061C4213FF001A344C /* Debug */,
+				D3190E071C4213FF001A344C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D3190E081C4213FF001A344C /* Build configuration list for PBXNativeTarget "Lecture-86-Exercise-Favorite-MoviesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3190E091C4213FF001A344C /* Debug */,
+				D3190E0A1C4213FF001A344C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D3190DE11C4213FE001A344C /* Lecture_86_Exercise_Favorite_Movies.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D3190DE21C4213FE001A344C /* Lecture_86_Exercise_Favorite_Movies.xcdatamodel */,
+			);
+			currentVersion = D3190DE21C4213FE001A344C /* Lecture_86_Exercise_Favorite_Movies.xcdatamodel */;
+			path = Lecture_86_Exercise_Favorite_Movies.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D3190DCF1C4213FE001A344C /* Project object */;
+}
